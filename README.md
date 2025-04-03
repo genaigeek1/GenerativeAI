@@ -1,2 +1,2 @@
 # GenerativeAI
-Generative AI repository to show case LLMOps Expertise
+Generative AI repository to show case LLMOps
