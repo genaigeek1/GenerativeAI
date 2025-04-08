@@ -1,2 +1,1 @@
-# GenerativeAI
-Generative AI repository to show case LLMOps
+Gen AI Repo 
