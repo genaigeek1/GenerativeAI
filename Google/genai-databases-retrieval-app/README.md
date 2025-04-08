@@ -114,7 +114,7 @@ Deploying this demo consists of 3 steps:
 
 Clone this repo to your local machine:
 ```bash
-git clone https://github.com/GoogleCloudPlatform/genai-databases-retrieval-app.git
+git clone https://github.com/genaigeek1/GenerativeAI/tree/main/Google/genai-databases-retrieval-app
 ```
 
 ### Setting up your Database
