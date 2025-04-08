@@ -1,0 +1,8 @@
+annotations:
+  - type: comment
+    text: "/gcbrun"
+  - type: label
+    text: "lint: run"
+trustedContributors:
+  - renovate-bot
+  - dependabot[bot]

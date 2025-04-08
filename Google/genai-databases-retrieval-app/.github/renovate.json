@@ -1,0 +1,51 @@
+{
+  "extends": [
+    "config:recommended",
+    ":semanticCommitTypeAll(chore)",
+    "helpers:pinGitHubActionDigests"
+  ],
+  "commitMessagePrefix": "deps: ",
+  "ignorePresets": [
+    ":semanticPrefixFixDepsChoreOthers"
+  ],
+  "prConcurrentLimit": 0,
+  "rebaseWhen": "never",
+  "dependencyDashboard": true,
+  "dependencyDashboardLabels": [
+    "type: process"
+  ],
+  "semanticCommits": "enabled",
+  "pip_requirements": {
+    "fileMatch": [
+      "requirements-test.txt"
+    ]
+  },
+  "packageRules": [
+    {
+      "groupName": "asyncpg",
+      "matchPackageNames": [
+        "asyncpg",
+        "asyncpg-stubs"
+      ]
+    },
+    {
+      "groupName": "pytest",
+      "matchPackageNames": [
+        "pytest",
+        "pytest-asyncio"
+      ]
+    },
+    {
+      "groupName": "langchain",
+      "matchPackageNames": [
+        "langchain",
+        "langchain-community",
+        "langchain-google-vertexai",
+        "langchain-core",
+        "google-cloud-aiplatform",
+        "langchain-text-splitters",
+        "langgraph"
+      ]
+    }
+  ]
+}
