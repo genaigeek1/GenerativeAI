@@ -83,7 +83,7 @@ git add -A
 
 4. **Commit Changes:**
 ```bash
-git commit -m "Added genai-databases-retrieval-app demo from Google"
+git commit -m "Making Test Changes-2"
 ```
 
 5. **Push to GitHub:**
