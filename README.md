@@ -83,7 +83,7 @@ git add -A
 
 4. **Commit Changes:**
 ```bash
-git commit -m "Making Test Changes-2"
+git commit -m "Making Test Changes-PAT2"
 ```
 
 5. **Push to GitHub:**
